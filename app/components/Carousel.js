@@ -1,6 +1,6 @@
 const Carousel = () => {
     return (
-        <div className="carousel rounded-box">
+        <div className="carousel rounded-box mt-4 mb-4">
             <div className="carousel-item">
                 <img src="/escargot2.png" alt="Escargots" />
             </div>
