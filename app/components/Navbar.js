@@ -11,27 +11,35 @@ const Navbar = () => {
                         <li>
                             <a>La Carte</a>
                             <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><a>Dinner Menu</a></li>
+                                <li><a>Cocktail Menu</a></li>
+                                <li><a>Wine List</a></li>
+                                <li><a>Desserts</a></li>
                             </ul>
                         </li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Events</a></li>
+                        <li><a>Gift Certificates</a></li>
+                        <li><a>About Us</a></li>
                     </ul>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
+                    <li><a>Home</a></li>
                     <li>
                         <details>
-                            <summary>Parent</summary>
+                            <summary>La Carte</summary>
                             <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><a>Dinner Menu</a></li>
+                                <li><a>Cocktail Menu</a></li>
+                                <li><a>Wine List</a></li>
+                                <li><a>Desserts</a></li>
                             </ul>
                         </details>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Events</a></li>
+                    <li><a>Gift Certificates</a></li>
+                    <li><a>About Us</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
